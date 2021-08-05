@@ -8,7 +8,6 @@ function getElementFromString(string) {
     return div.firstElementChild;
 }
 
-
 //Initalise number of parameters
 let addedParamsCount = 0;
 
@@ -113,6 +112,5 @@ submit.addEventListener('click',()=>{
         .then(text => {
             document.getElementById('responseJsonText').value = text;
         });
-
     }
 });
